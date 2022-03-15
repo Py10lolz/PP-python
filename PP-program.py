@@ -9,5 +9,6 @@ class PP:
 		for i in range(self.width):
 			result += "#" * self.width * 3 + "\n"
 		return result
-pp = PP(int(input("LENGTH:")), int(input("WIDTH:")))
-print(pp)
+if __name__ == "__main__":
+	pp = PP(int(input("LENGTH:")), int(input("WIDTH:")))
+	print(pp)
